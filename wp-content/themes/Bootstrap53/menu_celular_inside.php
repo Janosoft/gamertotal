@@ -9,6 +9,8 @@
                     </a>
                     <ul class="dropdown-menu text-small shadow">
                         <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/analisis/">Análisis</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/lanzamientos/">Lanzamientos</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/ofertas/">Ofertas</a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/tecnologia/">Tecnología</a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/trucos/">Trucos</a></li>
                     </ul>

@@ -23,7 +23,9 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 raleway700" style="font-size: 15px;">
                         <li class="nav-item" style="background-color: #99183D; color:#fff; padding-left: 4px; padding-right: 5px;"><a class="nav-link" style="font-size: 16px;" href="/?s" target="_blank" rel="nofollow" alt="Buscar"><i class="fa-solid fa-magnifying-glass" style="color: #fff;" aria-hidden="true"></i></a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/analisis/">Análisis</a></li>
-                        <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/tecnologia/">Tecnología</a></li>                        
+                        <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/lanzamientos/">Lanzamientos</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/ofertas/">Ofertas</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/tecnologia/">Tecnología</a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/trucos/">Trucos</a></li>
                     </ul>
 
@@ -33,7 +35,7 @@
                             date_default_timezone_set('America/Argentina/Buenos_Aires');
                             setlocale(LC_TIME, 'es_ES.UTF-8', 'esp');
                             if (!empty($captura_dia)) print strftime('%e de ', strtotime($captura_mes . '/' . $captura_dia . '/' . $captura_anio)) . ucfirst(strftime("%h", strtotime($captura_mes . '/' . $captura_dia . '/' . $captura_anio))) . strftime(' de %Y', strtotime($captura_mes . '/' . $captura_dia . '/' . $captura_anio));
-                            else print strftime('%e de ') . ucfirst(strftime("%h")) . strftime(' de %Y');                            
+                            else print strftime('%e de ') . ucfirst(strftime("%h")) . strftime(' de %Y');
                             ?>
                         </li>
                     </ul>
