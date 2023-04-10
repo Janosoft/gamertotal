@@ -16,22 +16,22 @@
   <meta name="revisit" content="1 days" />
   <meta name="googlebot" content="index, follow" />
   <link rel="canonical" href="https://www.gamertotal.com.ar/">
-  <link rel="apple-touch-icon" sizes="57x57" href="http://localhost/gamertotal/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="http://localhost/gamertotal/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="http://localhost/gamertotal/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="http://localhost/gamertotal/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="http://localhost/gamertotal/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="http://localhost/gamertotal/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="http://localhost/gamertotal/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="http://localhost/gamertotal/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost/gamertotal/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="http://localhost/gamertotal/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost/gamertotal/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="http://localhost/gamertotal/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="http://localhost/gamertotal/favicon-16x16.png">
-  <link rel="manifest" href="http://localhost/gamertotal/manifest.json">
+  <link rel="apple-touch-icon" sizes="57x57" href="https://www.gamertotal.com.ar/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://www.gamertotal.com.ar/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://www.gamertotal.com.ar/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://www.gamertotal.com.ar/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://www.gamertotal.com.ar/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://www.gamertotal.com.ar/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://www.gamertotal.com.ar/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://www.gamertotal.com.ar/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.gamertotal.com.ar/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="https://www.gamertotal.com.ar/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.gamertotal.com.ar/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://www.gamertotal.com.ar/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.gamertotal.com.ar/favicon-16x16.png">
+  <link rel="manifest" href="https://www.gamertotal.com.ar/manifest.json">
   <meta name="msapplication-TileColor" content="#99183D">
-  <meta name="msapplication-TileImage" content="http://localhost/gamertotal/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="https://www.gamertotal.com.ar/ms-icon-144x144.png">
   <meta name="theme-color" content="#99183D">
   <link rel="alternate" href="https://www.gamertotal.com.ar/feed" title="RSS" type="application/rss+xml">
 
@@ -40,9 +40,21 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="http://localhost/gamertotal/wp-content/themes/Bootstrap53/style.css" samesite="none Secure">
+  <link rel="stylesheet" href="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap53/style.css" samesite="none Secure">
   <?php wp_head();
   ?>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJFVFPCDEB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BJFVFPCDEB');
+  </script>
 </head>
 
 <body>

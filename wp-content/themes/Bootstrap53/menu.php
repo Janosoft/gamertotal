@@ -6,8 +6,8 @@
 
             </div>
             <div class="col">
-                <a href="http://localhost/gamertotal/" target="_self">
-                    <img loading="eager" class="img-fluid" style="display:block; margin:auto; margin-bottom: 3px;" id="logo" src="http://localhost/gamertotal/wp-content/themes/Bootstrap53/images/logo.jpg" alt="Logo">
+                <a href="https://www.gamertotal.com.ar/" target="_self">
+                    <img loading="eager" class="img-fluid" style="display:block; margin:auto; margin-bottom: 3px;" id="logo" src="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap53/images/logo.jpg" alt="Logo">
                 </a>
             </div>
             <div class="col-3 text-end fecha">

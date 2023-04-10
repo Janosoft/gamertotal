@@ -36,7 +36,7 @@
     <div class="container pt-3 pb-2">
       <div class="row">
         <div class="col-lg-12 pt-1 text-center">
-          <p class="raleway400"><strong>Gamer Total</strong> - Argentina. <br>E-mail de contacto: redaccion@gamertotal.com.ar</p>
+          <p class="raleway400"><strong>Gamer Total</strong> - Argentina. <br>E-mail de contacto: janosoft@gmail.com</p>
         </div>
         <!-- <div class="col-lg-3 pt-md-1">
           <ul class="list-inline m-0" style="text-align: center;">

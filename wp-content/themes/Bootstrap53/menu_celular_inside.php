@@ -4,8 +4,8 @@
         <div class="row mx-auto">
             <div class="col">
                 <div class="dropdown">
-                    <a href="http://localhost/gamertotal/" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img class="img-fluid" style="display:block; margin:auto; height: 60px; max-width: 193px;" loading="eager" src="http://localhost/gamertotal/wp-content/themes/Bootstrap53/images/logo.jpg" alt="Logo">
+                    <a href="https://www.gamertotal.com.ar/" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="img-fluid" style="display:block; margin:auto; height: 60px; max-width: 193px;" loading="eager" src="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap53/images/logo.jpg" alt="Logo">
                     </a>
                     <ul class="dropdown-menu text-small shadow">
                         <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/analisis/">Análisis</a></li>
