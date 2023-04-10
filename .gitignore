@@ -1,0 +1,13 @@
+# Ignora archivos de Wordpress
+/.htaccess
+/license.txt
+/readme.html
+/index.php
+/xmlrpc.php
+/wp-*.php
+/wp-admin
+/wp-includes
+/wp-content/languages
+/wp-content/plugins
+/wp-content/upgrade
+/wp-content/uploads
