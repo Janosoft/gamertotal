@@ -10,7 +10,7 @@
             <div style="border-bottom: 2px solid #555;">
                 <div class="rectangulo"></div>
             </div>
-            <h1 class="Franklin700 separador"><?php echo single_cat_title(); ?></h1>
+            <h1 class="Franklin700 separador"><?php echo ucfirst(single_cat_title('',false)); ?></h1>
         </div>
     </div>
 

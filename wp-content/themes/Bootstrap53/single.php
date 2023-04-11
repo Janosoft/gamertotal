@@ -1,6 +1,7 @@
 <?php include_once("header_single.php"); ?>
 <?php include_once('menu.php'); ?>
 <?php include_once('menu_celular_inside.php'); ?>
+<?php include_once('etiquetas_single.php'); ?>
 
 <!-- single -->
 <article class="container single_nota" itemscope itemtype="http://schema.org/BlogPosting">
