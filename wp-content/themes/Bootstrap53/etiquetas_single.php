@@ -1,5 +1,5 @@
 <!-- etiquetas -->
-<div class="container-fluid etiquetas mb-4 mt-0 d-none d-md-block" style="display: flex; text-transform: uppercase;">
+<div class="container-fluid etiquetas mt-0 d-none d-md-block" style="display: flex; text-transform: uppercase;">
     <div class="container">
         <div class="row raleway400">
             <div class="col text-center">

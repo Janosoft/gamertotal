@@ -34,12 +34,6 @@ hr {
 
 /* HEADER */
 
-.dolarsi {
-  line-height: 0;
-  font-size: 14px;
-  padding-left: 7px;
-}
-
 .fecha {
   padding-top: 5px;
   color: #606060;
@@ -55,7 +49,6 @@ hr {
 
 .etiquetas {
   font-size: 0.8rem;
-  background-color: #eeeeee;
   margin-top: 65px;
   white-space: nowrap;
   flex-grow: 1;
@@ -237,24 +230,6 @@ hr {
   margin-bottom: 1rem;
 }
 
-.termometro {
-  background-color: #DEDEDE;
-  font-size: 1.4rem;
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-  border-bottom: #AE376F 2px solid;
-}
-
-.termometro h1 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 1.6rem;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
 .rectangulo {
   width: 100px;
   height: 10px;
@@ -267,183 +242,6 @@ hr {
   color: #4A4B4C;
   padding-top: 8px;
 }
-
-.separador_deportes {
-  font-size: 1.8rem;
-  color: #005957;
-  padding-top: 8px;
-}
-
-/* RADIO */
-
-:root {
-  --primary-light: #8abdff;
-  --primary: #6d5dfc;
-  --primary-dark: #5b0eeb;
-  --white: #ffffff;
-  --greyLight-1: #e4ebf5;
-  --greyLight-2: #c8d0e7;
-  --greyLight-3: #bec8e4;
-  --greyDark: #9baacf;
-}
-
-.fondo_radio {
-  background-color: #f5f6f7;
-}
-
-.escucha {
-  border-radius: 29px;
-  background: linear-gradient(145deg, #f5f6f7, #fafafa);
-  box-shadow: 10px 10px 20px #e4ebf5, -5px -5px 20px #ffffff;
-  max-width: 200px;
-  margin: 0 auto;
-}
-
-.audios {
-  border-radius: 45px;
-  background: linear-gradient(145deg, #f5f6f7, #fafafa);
-  box-shadow: 10px 10px 20px #e4ebf5, -5px -5px 20px #ffffff;
-}
-
-.escucha h5 {
-  text-align: center;
-  font-size: 1.2rem;
-  padding: 10px;
-  color: #727376;
-}
-
-/*  PLAY BUTTON  */
-.circle {
-  grid-row: 4/6;
-  width: 8rem;
-  height: 100%;
-  justify-self: center;
-  border-radius: 1rem;
-  display: grid;
-  grid-template-rows: 1fr;
-  justify-items: center;
-  align-items: center;
-}
-
-.circle__btn {
-  grid-row: 1/2;
-  grid-column: 1/2;
-  width: 5rem;
-  height: 5rem;
-  display: flex;
-  margin: 0.6rem;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  font-size: 3.2rem;
-  color: var(--primary);
-  z-index: 300;
-  background: var(--greyLight-1);
-  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
-  cursor: pointer;
-  position: relative;
-}
-
-.circle__btn.shadow {
-  box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
-}
-
-.circle__btn .play {
-  position: absolute;
-  opacity: 0;
-  transition: all 0.2s linear;
-}
-
-.circle__btn .play.visibility {
-  opacity: 1;
-}
-
-.circle__btn .pause {
-  position: absolute;
-  transition: all 0.2s linear;
-}
-
-.circle__btn .pause.visibility {
-  opacity: 0;
-}
-
-.circle__back-1,
-.circle__back-2 {
-  grid-row: 1/2;
-  grid-column: 1/2;
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
-  filter: blur(1px);
-  z-index: 10;
-}
-
-.circle__back-1 {
-  box-shadow: 0.4rem 0.4rem 0.8rem var(--greyLight-2), -0.4rem -0.4rem 0.8rem var(--white);
-  background: linear-gradient(to bottom right, var(--greyLight-2) 0%, var(--white) 100%);
-  -webkit-animation: waves 4s linear infinite;
-  animation: waves 4s linear infinite;
-}
-
-.circle__back-1.paused {
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
-}
-
-.circle__back-2 {
-  box-shadow: 0.4rem 0.4rem 0.8rem var(--greyLight-2), -0.4rem -0.4rem 0.8rem var(--white);
-  -webkit-animation: waves 4s linear 2s infinite;
-  animation: waves 4s linear 2s infinite;
-}
-
-.circle__back-2.paused {
-  -webkit-animation-play-state: paused;
-  animation-play-state: paused;
-}
-
-
-
-@-webkit-keyframes waves {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-@keyframes waves {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-.col_radio {
-  text-align: -webkit-right;
-}
-
-.col_radio_btn {
-  text-align: -webkit-left;
-}
-
-/*RADIO*/
 
 .noticias h1 {
   font-size: 1.4rem;
@@ -515,6 +313,14 @@ footer p {
   line-height: 33px;
 }
 
+.texto_single a{
+  color: #AE376F;
+  font-weight: bold;
+}
+.texto_single a:hover{
+  color: #992a5e;
+  font-weight: bold;
+}
 .social [class*="fa-brands fa-facebook-f"] {
   border-radius: 10px;
   border: #4A4B4C solid 1px;
@@ -569,7 +375,6 @@ footer p {
 .vista_noticia img {
   width: 100%;
   height: auto;
-  padding-bottom: 20px;
 }
 
 .separador-single {

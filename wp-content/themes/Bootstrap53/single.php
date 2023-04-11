@@ -5,7 +5,7 @@
 
 <!-- single -->
 <article class="container single_nota" itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="row mt-0 mt-md-4">
+    <div class="row mt-0 mt-2">
         <div class="col-lg-12">
 
             <div class="row">
@@ -34,7 +34,7 @@
 </article>
 
 <section class="container">
-
+    <hr class="mb-4">
     <div class="row noticias mt-2">
 
         <?php
