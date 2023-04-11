@@ -1,5 +1,5 @@
 <!-- notas_3 -->
-<div class="container mt-0 mt-md-4 mb-0 mb-md-2">
+<div class="container">
     <div class="row noticias">
 
         <?php
@@ -7,7 +7,7 @@
         while ($query->have_posts()) : $query->the_post();
         ?>
 
-            <div class="col-lg">
+            <div class="col-lg mb-2">
                 <a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">
                     <article itemscope itemtype="http://schema.org/BlogPosting">
                         <?php the_post_thumbnail('full', ['alt' => get_the_title(), 'loading' => 'eager', 'class' => 'img-fluid']); ?>

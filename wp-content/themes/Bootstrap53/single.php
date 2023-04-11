@@ -34,14 +34,14 @@
 
 <section class="container">
 
-    <div class="row noticias mt-2 mb-2">
+    <div class="row noticias mt-2">
 
         <?php
         $query = new WP_Query(array('showposts' => 3, 'category__in' => 1, 'post__not_in' => array($post->ID)));
         while ($query->have_posts()) : $query->the_post();
         ?>
 
-            <div class="col-lg">
+            <div class="col-lg mb-2">
                 <a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">
                     <article itemscope itemtype="http://schema.org/BlogPosting">
                         <?php the_post_thumbnail('full', ['alt' => get_the_title(), 'loading' => 'lazy', 'class' => 'img-fluid']); ?>

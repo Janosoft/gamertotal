@@ -28,18 +28,7 @@
                         <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/tecnologia/">Tecnología</a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/trucos/">Trucos</a></li>
                     </ul>
-
-                    <ul class="navbar-nav ml-auto" style="padding-right: 5px; color: #fff;">
-                        <li>
-                            <?php
-                            date_default_timezone_set('America/Argentina/Buenos_Aires');
-                            setlocale(LC_TIME, 'es_ES.UTF-8', 'esp');
-                            if (!empty($captura_dia)) print strftime('%e de ', strtotime($captura_mes . '/' . $captura_dia . '/' . $captura_anio)) . ucfirst(strftime("%h", strtotime($captura_mes . '/' . $captura_dia . '/' . $captura_anio))) . strftime(' de %Y', strtotime($captura_mes . '/' . $captura_dia . '/' . $captura_anio));
-                            else print strftime('%e de ') . ucfirst(strftime("%h")) . strftime(' de %Y');
-                            ?>
-                        </li>
-                    </ul>
-
+                    
                 </div>
             </div>
         </nav>
