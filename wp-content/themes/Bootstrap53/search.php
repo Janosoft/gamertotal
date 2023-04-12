@@ -10,7 +10,7 @@
                 <div class="input-group">
                     <input type="text" class="form-control" name="s" id="s" placeholder="Palabras Claves">
                     <div class="input-group-append">
-                        <button class="btn btn-warning br_naranja co_naranja" type="submit"><i class="fas fa-search" aria-hidden="true"></i></button>
+                        <button class="btn btn-warning" style="background-color: #99183D; border-color: #99183D;" type="submit"><i class="fas fa-search" aria-hidden="true"></i></button>
                     </div>
                 </div>
             </form>
