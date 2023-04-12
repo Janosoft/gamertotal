@@ -12,12 +12,15 @@ function fb_opengraph()
         } else {
             $img_src = get_stylesheet_directory_uri() . '/images/opengraph_image.jpg';
         }
-        if ($excerpt = $post->post_excerpt) {
-            $excerpt = strip_tags($post->post_excerpt);
-            $excerpt = str_replace("", "'", $excerpt);
-        } else {
-            $excerpt = get_bloginfo('description');
-        }
+        $string = substr(get_the_excerpt($post->ID), 0, 280);
+        $pos1 = strrpos($string, '.');
+        $pos2 = strrpos($string, ';');
+        $pos3 = strrpos($string, ':');
+        $pos4 = strrpos($string, ',');
+        $pos5 = strrpos($string, ' ');
+        $excerpt= substr($string, 0, ($pos1 > 160 ? $pos1 : ($pos2 > 160 ? $pos2 : ($pos3 > 160 ? $pos3 : ($pos4 > 160 ? $pos4 : $pos5))))) . ($pos1 > 160 ? '.' : ($pos2 > 160 ? '.' : ($pos3 > 160 ? '...' : ($pos4 > 160 ? '...' : '...'))));
+        if (empty($excerpt)) $excerpt = get_bloginfo('description');
+
 ?>
         <meta property="og:title" content="<?php echo the_title(); ?>" />
         <meta property="og:description" content="<?php echo $excerpt; ?>" />
