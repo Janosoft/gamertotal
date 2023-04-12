@@ -55,7 +55,6 @@
   <meta name="revisit" content="1 days" />
   <meta name="googlebot" content="index, follow" />
   <meta name="robots" content="max-image-preview:large">
-  <link rel="canonical" href="<?php the_permalink(); ?>">
   <link rel="apple-touch-icon" sizes="57x57" href="https://www.gamertotal.com.ar/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="https://www.gamertotal.com.ar/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="https://www.gamertotal.com.ar/apple-icon-72x72.png">
