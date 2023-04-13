@@ -46,7 +46,7 @@
                 <a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">
                     <article itemscope itemtype="http://schema.org/BlogPosting">
                         <?php the_post_thumbnail('full', ['alt' => get_the_title(), 'loading' => 'lazy', 'class' => 'img-fluid']); ?>
-                        <h1 itemprop="headline"><?php the_title_attribute(); ?></h1>
+                        <h2 itemprop="headline"><?php the_title_attribute(); ?></h2>
                         <link itemprop="url" href="<?php the_permalink(); ?>">
                     </article>
                 </a>
