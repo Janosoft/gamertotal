@@ -26,7 +26,7 @@
             <article class="row mb-4 pb-2 noticias" itemscope itemtype="http://schema.org/BlogPosting">
                 <div class="col-lg-4">
                     <a href="<?php the_permalink() ?>" alt="<?php the_title_attribute(); ?>">
-                        <?php the_post_thumbnail('full', ['alt' => get_the_title(), 'loading' => (($cant < 10) ? 'eager' : 'lazy'), 'class' => 'img-fluid']); ?>
+                        <?php the_post_thumbnail('medium_large', ['alt' => get_the_title(), 'loading' => (($cant < 5) ? 'eager' : 'lazy'), 'class' => 'img-fluid']); ?>
                     </a>
                 </div>
                 <div class="col-lg-8">

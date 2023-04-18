@@ -313,14 +313,16 @@ footer p {
   line-height: 33px;
 }
 
-.texto_single a{
+.texto_single a {
   color: #AE376F;
   font-weight: bold;
 }
-.texto_single a:hover{
+
+.texto_single a:hover {
   color: #992a5e;
   font-weight: bold;
 }
+
 .social [class*="fa-brands fa-facebook-f"] {
   border-radius: 10px;
   border: #4A4B4C solid 1px;
@@ -372,7 +374,12 @@ footer p {
   background-color: #b9b9b9;
 }
 
-.vista_noticia img {
+.single_nota img {
+  width: 100%;
+  height: auto;
+}
+
+.noticias img {
   width: 100%;
   height: auto;
 }

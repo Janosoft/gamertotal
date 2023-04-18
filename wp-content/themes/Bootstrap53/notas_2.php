@@ -10,7 +10,7 @@
             <div class="col-lg mb-2">
                 <a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">
                     <article itemscope itemtype="http://schema.org/BlogPosting">
-                        <?php the_post_thumbnail('full', ['alt' => get_the_title(), 'loading' => 'eager', 'class' => 'img-fluid']); ?>
+                        <?php the_post_thumbnail('medium_large', ['alt' => get_the_title(), 'loading' => 'lazy', 'class' => 'img-fluid']); ?>
                         <h1 itemprop="headline"><?php the_title_attribute(); ?></h1>
                         <link itemprop="url" href="<?php the_permalink(); ?>">
                     </article>
