@@ -6,4 +6,5 @@ include_once("notas_1.php");
 include_once("notas_2.php");
 include_once("notas_3.php");
 include_once("notas_4.php");
+include_once("notas_5.php");
 include_once("footer.php");
