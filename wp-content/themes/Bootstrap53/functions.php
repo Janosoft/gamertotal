@@ -2,7 +2,8 @@
 
 add_theme_support('post-thumbnails');
 add_theme_support('responsive-embeds');
-
+remove_action( 'wp_head', 'feed_links', 2 ); // Quita feeds en post y comentarios
+remove_action('wp_head', 'feed_links_extra', 3 ); // Quita feeds en categorias
 function fb_opengraph()
 {
     global $post;
