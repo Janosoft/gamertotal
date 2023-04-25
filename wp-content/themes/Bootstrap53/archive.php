@@ -7,7 +7,7 @@
 
     <div class="row">
         <div class="col">
-            <div style="border-bottom: 2px solid #555;">
+            <div style="border-bottom: 2px solid #B64D54;">
                 <div class="rectangulo"></div>
             </div>
             <h1 class="Franklin700 separador"><?php echo ucfirst(single_cat_title('',false)); ?></h1>
@@ -28,7 +28,7 @@
                 <a class="titulo Franklin700" href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">
                     <h2 itemprop="headline"><?php the_title(); ?></h2>
                 </a>
-                <span style="color: #0084ca; font-weight: 500;"><?php echo get_the_date(); ?></span> <?php print get_the_excerpt(); ?>
+                <span style="color: #B64D54; font-weight: 500;"><?php echo get_the_date(); ?></span> <?php print get_the_excerpt(); ?>
                 <link itemprop="url" href="<?php the_permalink(); ?>">
             </div>
         </article>

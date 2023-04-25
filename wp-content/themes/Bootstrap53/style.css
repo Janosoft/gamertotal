@@ -57,7 +57,7 @@ hr {
 
 #button_top {
   display: inline-block;
-  background-color: #AE376F;
+  background-color: #B64D54;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -112,7 +112,7 @@ hr {
 
 .progress2-bar {
   height: 5px;
-  background: #AE376F;
+  background: #B64D54;
   width: 0%;
 }
 
@@ -132,7 +132,7 @@ hr {
 
 .progress3-bar {
   height: 5px;
-  background: #AE376F;
+  background: #B64D54;
   width: 0%;
 }
 
@@ -154,7 +154,7 @@ hr {
 
 #button_top {
   display: inline-block;
-  background-color: #AE376F;
+  background-color: #B64D54;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -233,7 +233,7 @@ hr {
 .rectangulo {
   width: 100px;
   height: 10px;
-  background: #AE376F;
+  background: #B64D54;
   border-bottom: 2px solid #555;
 }
 
@@ -278,13 +278,13 @@ hr {
 
 .ultimas_noticias p {
   font-size: 3rem;
-  color: #AE376F;
+  color: #B64D54;
 }
 
 .ultimas_noticias .linea_naranja {
   display: table;
   overflow: hidden;
-  border-left: 3px solid #AE376F;
+  border-left: 3px solid #B64D54;
 }
 
 footer p {
@@ -299,7 +299,7 @@ footer p {
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  background-color: #AE376F;
+  background-color: #B64D54;
   color: #fff;
   border-radius: 50%;
   min-width: 40px !important;
@@ -307,7 +307,7 @@ footer p {
 }
 
 .volanta_notas {
-  color: #AE376F;
+  color: #B64D54;
   font-size: 1.5rem;
 }
 
@@ -322,12 +322,12 @@ footer p {
 }
 
 .texto_single a {
-  color: #AE376F;
+  color: #B64D54;
   font-weight: bold;
 }
 
 .texto_single a:hover {
-  color: #992a5e;
+  color: #b3363e;
   font-weight: bold;
 }
 
@@ -400,7 +400,7 @@ footer p {
 
 .leidas {
   font-size: 2.5rem;
-  color: #AE376F;
+  color: #B64D54;
   line-height: 40px;
 }
 
@@ -436,7 +436,7 @@ footer p {
     margin-left: 0.5rem !important;
     margin-right: 0.5rem !important;
     font-size: 1rem;
-    color: #AE376F;
+    color: #B64D54;
   }
 
   .central p {

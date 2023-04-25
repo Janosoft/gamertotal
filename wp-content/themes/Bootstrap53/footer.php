@@ -32,11 +32,11 @@
 <!----boton_scroll_top---->
 
 <footer>
-  <div class="container-fluid mb-4 mb-md-0" style="background-color: #afafaf36;">
+  <div class="container-fluid mb-4 mb-md-0" style="background-color: #E9666D;">
     <div class="container pt-3 pb-2">
       <div class="row">
         <div class="col-lg-12 pt-1 text-center">
-          <p class="raleway400"><strong>Gamer Total</strong> - Argentina. <br>E-mail de contacto: janosoft@gmail.com</p>
+          <p class="raleway400" style="color: #80363C"><strong>Gamer Total</strong> - Argentina. <br>E-mail de contacto: janosoft@gmail.com</p>
         </div>
         <!-- <div class="col-lg-3 pt-md-1">
           <ul class="list-inline m-0" style="text-align: center;">

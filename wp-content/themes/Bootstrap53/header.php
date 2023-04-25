@@ -5,7 +5,7 @@
   <title>Gamer Total</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <meta name="theme-color" content="#fff" />
+  <meta name="theme-color" content="#DE595E" />
   <meta name="Description" content="Descubre las últimas noticias, análisis y reseñas de los mejores videojuegos en nuestra página web. Mantente actualizado en el mundo de los videojuegos con contenido fresco y exclusivo para todos los fanáticos. ¡Entrá ahora y disfruta de la mejor experiencia gamer!" />
   <meta property="og:description" content="Descubre las últimas noticias, análisis y reseñas de los mejores videojuegos en nuestra página web. Mantente actualizado en el mundo de los videojuegos con contenido fresco y exclusivo para todos los fanáticos. ¡Entrá ahora y disfruta de la mejor experiencia gamer!" />
   <meta name="twitter:description" content="Descubre las últimas noticias, análisis y reseñas de los mejores videojuegos en nuestra página web. Mantente actualizado en el mundo de los videojuegos con contenido fresco y exclusivo para todos los fanáticos. ¡Entrá ahora y disfruta de la mejor experiencia gamer!" />
@@ -31,9 +31,9 @@
   <link rel="icon" type="image/png" sizes="96x96" href="https://www.gamertotal.com.ar/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="https://www.gamertotal.com.ar/favicon-16x16.png">
   <link rel="manifest" href="https://www.gamertotal.com.ar/manifest.json">
-  <meta name="msapplication-TileColor" content="#99183D">
+  <meta name="msapplication-TileColor" content="#DE595E">
   <meta name="msapplication-TileImage" content="https://www.gamertotal.com.ar/ms-icon-144x144.png">
-  <meta name="theme-color" content="#99183D">
+  <meta name="theme-color" content="#DE595E">
   <link rel="alternate" href="https://www.gamertotal.com.ar/feed" title="RSS" type="application/rss+xml">
   <link rel="alternate" href="https://www.gamertotal.com.ar/category/analisis/feed/" title="RSS Sección Análisis" type="application/rss+xml">
   <link rel="alternate" href="https://www.gamertotal.com.ar/category/lanzamientos/feed/" title="RSS Sección Lanzamientos" type="application/rss+xml">

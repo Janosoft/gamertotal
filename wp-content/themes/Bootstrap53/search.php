@@ -10,7 +10,7 @@
                 <div class="input-group">
                     <input type="text" class="form-control" name="s" id="s" placeholder="Palabras Claves">
                     <div class="input-group-append">
-                        <button class="btn btn-warning" style="background-color: #99183D; border-color: #99183D;" type="submit"><i class="fas fa-search" aria-hidden="true"></i></button>
+                        <button class="btn btn-warning" style="background-color: #DE595E; border-color: #B64D54;" type="submit"><i class="fas fa-search" aria-hidden="true"></i></button>
                     </div>
                 </div>
             </form>
@@ -35,7 +35,7 @@
                             <?php the_title(); ?>
                         </h2>
                     </a>
-                    <span style="color: #0084ca; font-weight: 500;"><?php echo get_the_date(); ?></span> <?php print get_the_excerpt(); ?>
+                    <span style="color: #B64D54; font-weight: 500;"><?php echo get_the_date(); ?></span> <?php print get_the_excerpt(); ?>
                     <link itemprop="url" href="<?php the_permalink(); ?>">
                 </div>
             </article>
