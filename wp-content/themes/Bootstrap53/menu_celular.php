@@ -8,6 +8,7 @@
                         <img class="img-fluid" style="display:block; margin:auto; max-width: 193px;" loading="eager" src="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap53/images/logo.jpg" alt="Logo">
                     </a>
                     <ul class="dropdown-menu text-small shadow text-center">
+                        <li class="nav-item"><a class="nav-link" style="color: #99183D;" href="https://www.gamertotal.com.ar/category/actualizaciones/">Actualizaciones</a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #99183D;" href="https://www.gamertotal.com.ar/category/analisis/">Análisis</a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #99183D;" href="https://www.gamertotal.com.ar/category/lanzamientos/">Lanzamientos</a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #99183D;" href="https://www.gamertotal.com.ar/category/ofertas/">Ofertas</a></li>

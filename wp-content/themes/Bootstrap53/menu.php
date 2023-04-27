@@ -22,6 +22,7 @@
 
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 raleway700" style="font-size: 15px;">
                         <li class="nav-item" style="background-color: #DE595E; color:#fff; padding-left: 4px; padding-right: 5px;"><a class="nav-link" style="font-size: 16px;" href="/?s" target="_blank" rel="nofollow" alt="Buscar"><i class="fa-solid fa-magnifying-glass" style="color: #fff;" aria-hidden="true"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/actualizaciones/">Actualizaciones</a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/analisis/">Análisis</a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/lanzamientos/">Lanzamientos</a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #fff;" href="https://www.gamertotal.com.ar/category/ofertas/">Ofertas</a></li>
