@@ -4,11 +4,11 @@
         <div class="row align-items-center">
             <div class="col-1 background_logo">
                 <a href="https://www.gamertotal.com.ar/" target="_self">
-                    <img loading="eager" src="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap54/images/logo.jpg" class="img-fluid mx-auto d-block" id="logo" alt="logo Gamer Total">
+                    <img loading="eager" src="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap54/images/logo.png" class="img-fluid mx-auto d-block" id="logo" alt="logo Gamer Total">
                 </a>
             </div>
             <div class="col-5 offset-6 mt-5">
-                <nav class="navbar navbar-expand-lg bg-dark d-none d-md-block" style="padding: 0; background-color:#000 !important;">
+                <nav class="navbar navbar-expand-lg d-none d-md-block" style="padding: 0;">
                     <div class="container p-0">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">

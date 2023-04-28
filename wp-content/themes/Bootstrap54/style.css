@@ -1,15 +1,14 @@
 a {
   text-decoration: none !important;
-  color: #4A4B4C;
+  color: #fff;
 }
 
 a:hover {
   text-decoration: none !important;
-  color: #4A4B4C;
+  color: #fff;
 }
 
-body
-{
+body {
   background-color: #000;
   color: #fff;
 }
@@ -40,13 +39,11 @@ hr {
 
 /* HEADER */
 
-.background_logo
-{
+.background_logo {
   background-color: #DF5A5F;
 }
 
-#logo
-{
+#logo {
   max-height: 150px;
 }
 
@@ -170,19 +167,19 @@ hr {
   padding-top: 8px;
 }
 
-.noticias
-{
+.noticias h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-}
-
-.noticias h1 {
-  font-size: 1.4rem;  
+  color: #fff;
+  font-size: 1.4rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 .noticias h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #fff;
   font-size: 1.4rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -190,7 +187,21 @@ hr {
 }
 
 .noticias h3 {
-  font-size: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.noticias h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 20px;
   line-height: 1.4rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -322,6 +333,11 @@ footer p {
   .noticias h2 {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
+  }
+
+  .noticias h3 {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
   }
 
 
