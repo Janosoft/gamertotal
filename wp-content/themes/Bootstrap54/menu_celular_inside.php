@@ -20,13 +20,4 @@
         </div>
     </div>
 </nav>
-
-<div class="container" style="background: #fff;">
-    <div id="progress2">
-        <div class="progress2-container">
-            <div class="progress2-bar" id="myBar" style="width: 0%;"></div>
-        </div>
-    </div>
-</div>
-
 </header>
