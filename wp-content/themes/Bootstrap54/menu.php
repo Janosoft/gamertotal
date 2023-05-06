@@ -1,5 +1,5 @@
 <!-- menu -->
-<header class="sticky-top" style="background-color: #000;">
+<header class="sticky-top" style="background-color: rgba(0, 0, 0, 0.3);">
     <div class="container-fluid d-none d-md-block">
         <div class="row align-items-center">
             <div class="col-1 background_logo">

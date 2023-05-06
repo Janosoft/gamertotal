@@ -126,12 +126,12 @@ hr {
 
 .progress3-container {
   width: 100%;
-  height: 5px;
+  height: 2px;
   background: #ccc;
 }
 
 .progress3-bar {
-  height: 5px;
+  height: 2px;
   background: #B64D54;
   width: 0%;
 }

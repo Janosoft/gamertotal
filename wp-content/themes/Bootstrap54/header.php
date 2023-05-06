@@ -64,7 +64,7 @@
   </script>
 </head>
 
-<body>
+<body style="background-image: url('https://www.gamertotal.com.ar/wp-content/themes/Bootstrap54/images/back.webp'); background-repeat: repeat-y; background-size: contain;">
   <!----boton_scroll_top---->
   <a id="button_top" rel="nofollow"></a>
   <!----boton_scroll_top---->
