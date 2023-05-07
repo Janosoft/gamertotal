@@ -1,5 +1,5 @@
 <!-- menu -->
-<header class="sticky-top" style="background-color: rgba(0, 0, 0, 0.3);">
+<header class="sticky-top">
     <div class="container-fluid d-none d-md-block">
         <div class="row align-items-center">
             <div class="col-1 background_logo">
@@ -9,7 +9,7 @@
             </div>
             <div class="col-5 offset-6 mt-5">
                 <nav class="navbar navbar-expand-lg d-none d-md-block" style="padding: 0;">
-                    <div class="container p-0">
+                    <div class="container p-0" style="background-color: rgba(0, 0, 0, 0.65);">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 raleway700" style="font-size: 15px; font-weight: normal; margin-left: 30px">
@@ -24,11 +24,9 @@
                         </div>
                     </div>
                 </nav>
-                <div class="container">
-                    <div id="progress2">
-                        <div class="progress2-container">
-                            <div class="progress2-bar" id="myBar" style="width: 0%;"></div>
-                        </div>
+                <div id="progress2">
+                    <div class="progress2-container">
+                        <div class="progress2-bar" id="myBar" style="width: 0%;"></div>
                     </div>
                 </div>
             </div>
