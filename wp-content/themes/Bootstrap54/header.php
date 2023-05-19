@@ -6,9 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="theme-color" content="#DE595E" />
-  <meta name="Description" content="Descubre las últimas noticias, análisis y reseñas de los mejores videojuegos en nuestra página web. Mantente actualizado en el mundo de los videojuegos con contenido fresco y exclusivo para todos los fanáticos. ¡Entrá ahora y disfruta de la mejor experiencia gamer!" />
-  <meta property="og:description" content="Descubre las últimas noticias, análisis y reseñas de los mejores videojuegos en nuestra página web. Mantente actualizado en el mundo de los videojuegos con contenido fresco y exclusivo para todos los fanáticos. ¡Entrá ahora y disfruta de la mejor experiencia gamer!" />
-  <meta name="twitter:description" content="Descubre las últimas noticias, análisis y reseñas de los mejores videojuegos en nuestra página web. Mantente actualizado en el mundo de los videojuegos con contenido fresco y exclusivo para todos los fanáticos. ¡Entrá ahora y disfruta de la mejor experiencia gamer!" />
+  <meta name="Description" content="Descubrí las últimas noticias, análisis y reseñas de los mejores videojuegos en nuestra página web. Mantenete actualizado en el mundo de los videojuegos con contenido fresco y exclusivo para todos los fanáticos. ¡Entrá ahora y disfrutá de la mejor experiencia gamer!" />
+  <meta property="og:description" content="Descubrí las últimas noticias, análisis y reseñas de los mejores videojuegos en nuestra página web. Mantenete actualizado en el mundo de los videojuegos con contenido fresco y exclusivo para todos los fanáticos. ¡Entrá ahora y disfrutá de la mejor experiencia gamer!" />
+  <meta name="twitter:description" content="Descubrí las últimas noticias, análisis y reseñas de los mejores videojuegos en nuestra página web. Mantenete actualizado en el mundo de los videojuegos con contenido fresco y exclusivo para todos los fanáticos. ¡Entrá ahora y disfrutá de la mejor experiencia gamer!" />
   <meta name="Keywords" content="videojuegos, noticias de videojuegos, reseñas de videojuegos, consolas de videojuegos, PC gaming, juegos online, eSports, gamers, entretenimiento, tecnología" />
   <meta name="author" content="Alejandro Martín Lodes" />
   <meta name="copyright" content="Alejandro Martín Lodes" />
