@@ -42,7 +42,7 @@
         </div>
 
         <div class="col-lg-1 text-center">
-          <a href="https://linkedin.com/company/gamertotal/" target="_blank" style="color: #692C31;"><i class="fab fa-linkedin ps-1 pr-1" aria-hidden="true"></i></a>
+          <a href="https://linkedin.com/company/gamertotal/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true" style="color: #692C31;"></i></a>
           <a href="https://www.instagram.com/gamertotal_ar/" target="_blank"><i class="fab fa-instagram ps-1 pe-1" aria-hidden="true" style="color: #692C31;"></i></a>
         </div>
 
