@@ -33,28 +33,25 @@
 <!----boton_scroll_top---->
 
 <footer>
-  <div class="container-fluid mb-4 mb-md-0" style="background-color: #E9666D;">
+  <div class="container-fluid" style="background-color: #E9666D;">
     <div class="container pt-3 pb-2">
-      <div class="row">
-        <div class="col-lg-12 pt-1 text-center">
-          <p class="raleway400" style="color: #692C31"><strong>Gamer Total</strong> - Argentina. <br>E-mail de contacto: janosoft@gmail.com</p>
+      <div class="row align-items-center">
+
+        <div class="col-lg-11 text-center">
+          <p class="raleway400" style="color: #692C31;margin-bottom: 7px;"><strong>Gamer Total</strong> - Argentina. <br>E-mail de contacto: janosoft@gmail.com</p>
         </div>
-        <!-- <div class="col-lg-3 pt-md-1">
-          <ul class="list-inline m-0" style="text-align: center;">
-            <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="https://www.twitter.com/gamertotal" alt="Twitter"><i style="color: #000; font-size: 20px;" class="fab fa-twitter" aria-hidden="true"></i></a></li>
-            <li class="list-inline-item">&nbsp;</li>
-            <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/gamertotal" alt="FaceBook"><i style="color: #000; font-size: 20px" class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-            <li class="list-inline-item">&nbsp;</li>
-            <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="https://www.instagram.com/gamertotal" alt="instagram"><i style="color: #000; font-size: 20px" class="fab fa-instagram" aria-hidden="true"></i></a></li>
-          </ul>
-        </div> -->
+
+        <div class="col-lg-1 text-center">
+          <a href="https://linkedin.com/company/gamertotal/" target="_blank" style="color: #692C31;"><i class="fab fa-linkedin ps-1 pr-1" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/gamertotal_ar/" target="_blank"><i class="fab fa-instagram ps-1 pe-1" aria-hidden="true" style="color: #692C31;"></i></a>
+        </div>
+
       </div>
     </div>
   </div>
 </footer>
 
-<?php wp_footer();
-?>
+<?php wp_footer();?>
 </body>
 
 </html>
