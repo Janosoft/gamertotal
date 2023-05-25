@@ -4,6 +4,16 @@ add_theme_support('post-thumbnails');
 add_theme_support('responsive-embeds');
 remove_action( 'wp_head', 'feed_links', 2 ); // Quita feeds en post y comentarios
 remove_action('wp_head', 'feed_links_extra', 3 ); // Quita feeds en categorias
+// Todo el código relacionado con emojis
+remove_action('wp_head', 'print_emoji_detection_script', 7);
+remove_action('admin_print_scripts', 'print_emoji_detection_script');
+remove_action('wp_print_styles', 'print_emoji_styles');
+remove_action('admin_print_styles', 'print_emoji_styles');
+remove_filter('the_content_feed', 'wp_staticize_emoji');
+remove_filter('comment_text_rss', 'wp_staticize_emoji');
+remove_filter('wp_mail', 'wp_staticize_emoji_for_email');
+// Función específica para deshabilitar emojis en editor Gutenberg
+add_filter('tiny_mce_plugins', 'disable_emojicons_tinymce');
 function fb_opengraph()
 {
     global $post;
