@@ -5,7 +5,7 @@
             <div class="col text-center">
                 <p class="pt-1 pb-1 mb-0">
 
-                    <i class="fa-solid fa-tag" style="margin-right: 10px;" aria-hidden="true"></i>
+                    <i class="fa-solid fa-tag" style="margin-right: 10px; color:white;" aria-hidden="true"></i>
                     <?php
                     $posttags = get_the_tags();
                     $etiquetas = "";
@@ -15,7 +15,7 @@
                     $etiquetas = substr($etiquetas, 0, -2); //quita la ultima coma y el ultimo espacio
                     print($etiquetas);
                     ?>
-                    <i class="fa-solid fa-tag" style="margin-left: 10px;" aria-hidden="true"></i>
+                    <i class="fa-solid fa-tag" style="margin-left: 10px; color:white;" aria-hidden="true"></i>
                     
                 </p>
             </div>

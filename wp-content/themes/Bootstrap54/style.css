@@ -1,16 +1,16 @@
 a {
   text-decoration: none !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 a:hover {
   text-decoration: none !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 body {
-  background-color: #000;
-  color: #fff;
+  background-color: #000 !important;
+  color: #fff !important;
 }
 
 hr {
