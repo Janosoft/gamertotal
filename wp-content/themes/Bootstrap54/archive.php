@@ -1,6 +1,5 @@
 <?php include_once('header.php'); ?>
 <?php include_once('menu.php'); ?>
-<?php include_once('menu_celular_inside.php'); ?>
 
 <!-- archive -->
 <div class="container mt-4">
@@ -35,5 +34,4 @@
     <?php endwhile; ?>
 </div>
 
-<?php include_once('publicidad_ba_fija.php'); ?>
 <?php include_once('footer.php'); ?>

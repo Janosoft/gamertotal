@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <img class="ops" src="https://www.gamertotal.com.ar/assets/images/404.svg" alt="Error 404"/>
+        <img class="ops" src="https://www.gamertotal.com.ar/assets/images/404.svg" alt="Error 404" cache-control="max-age=31536000" decoding="async"/>
         <br />
         <h3>La p&aacute;gina que est&aacute;s buscando no existe
             <br />o ya no se encuentra disponible.</h3>
