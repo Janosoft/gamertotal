@@ -61,13 +61,13 @@
   <link rel="alternate" href="https://www.gamertotal.com.ar/category/ofertas/feed/" title="RSS Sección Ofertas" type="application/rss+xml">
   <link rel="alternate" href="https://www.gamertotal.com.ar/category/tecnologia/feed/" title="RSS Sección Tecnología" type="application/rss+xml">
   <link rel="alternate" href="https://www.gamertotal.com.ar/category/trucos/feed/" title="RSS Sección Trucos" type="application/rss+xml">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap54/style.css" samesite="none Secure">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8213203459896597" crossorigin="anonymous"></script>
   <?php
   wp_head();
   $nota_id = $post->ID;
