@@ -66,7 +66,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap54/style.css" samesite="none Secure">
+  <link rel="stylesheet" href="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap5/style.css" samesite="none Secure">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8213203459896597" crossorigin="anonymous"></script>
   <?php
   wp_head();
@@ -86,7 +86,7 @@
   </script>
 </head>
 
-<body style="background-image: url('https://www.gamertotal.com.ar/wp-content/themes/Bootstrap54/images/back.webp'); background-repeat: repeat-y; background-size: contain;">
+<body style="background-image: url('https://www.gamertotal.com.ar/wp-content/themes/Bootstrap5/images/back.webp'); background-repeat: repeat-y; background-size: contain;">
   <!----boton_scroll_top---->
   <a id="button_top"></a>
   <!----boton_scroll_top---->

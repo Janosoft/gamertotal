@@ -44,7 +44,7 @@
     <?php else : ?>
         <div class="row">
             <div class="col-lg">
-                <img src="/wp-content/themes/Bootstrap53/images/nohay.jpg" alt="No se encontraron resultados" cache-control="max-age=31536000" decoding="async"/>
+                <img src="/wp-content/themes/Bootstrap5/images/nohay.jpg" alt="No se encontraron resultados" cache-control="max-age=31536000" decoding="async"/>
             </div>
         </div>
         <div class="row">

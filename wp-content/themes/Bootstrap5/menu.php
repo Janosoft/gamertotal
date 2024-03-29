@@ -4,7 +4,7 @@
         <div class="row align-items-start">
             <div class="col-1 background_logo">
                 <a href="https://www.gamertotal.com.ar/" target="_self">
-                    <img loading="eager" src="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap54/images/logo.png" class="img-fluid mx-auto d-block" id="logo" alt="logo Gamer Total" cache-control="max-age=31536000" decoding="async">
+                    <img loading="eager" src="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap5/images/logo.png" class="img-fluid mx-auto d-block" id="logo" alt="logo Gamer Total" cache-control="max-age=31536000" decoding="async">
                 </a>
             </div>
             <div class="col-lg-7 offset-lg-4 col-xl-6 offset-xl-5 col-xxl-5 offset-xxl-6">
