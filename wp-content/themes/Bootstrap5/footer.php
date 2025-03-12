@@ -1,6 +1,6 @@
 <!-- footer -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/f6def5424c.js" crossorigin="anonymous" samesite="none Secure"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
 <script>
   window.onscroll = function() {
@@ -42,8 +42,8 @@
         </div>
 
         <div class="col-lg-1 text-center">
-          <a href="https://linkedin.com/company/gamertotal/" target="_blank" alt="Linkedin"><i class="fab fa-linkedin" aria-hidden="true" style="color: #692C31;"></i></a>
-          <a href="https://www.instagram.com/gamertotal_ar/" target="_blank" alt="Instagram"><i class="fab fa-instagram ps-1 pe-1" aria-hidden="true" style="color: #692C31;"></i></a>
+          <a href="https://linkedin.com/company/gamertotal/" target="_blank" alt="Linkedin"><i class="bi bi-linkedin" aria-hidden="true" style="color: #692C31;"></i></a>
+          <!-- <a href="https://www.instagram.com/gamertotal_ar/" target="_blank" alt="Instagram"><i class="bi bi-instagram ps-1 pe-1" aria-hidden="true" style="color: #692C31;"></i></a> -->
         </div>
 
       </div>

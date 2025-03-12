@@ -16,7 +16,7 @@
   <meta name="revisit" content="1 days" />
   <meta name="googlebot" content="index, follow" />
   <meta name="robots" content="max-image-preview:large">
-  <link rel="canonical" href="https://www.gamertotal.com.ar<?php echo $_SERVER['REQUEST_URI'];?>">
+  <link rel="canonical" href="https://www.gamertotal.com.ar<?php echo $_SERVER['REQUEST_URI']; ?>">
   <link rel="apple-touch-icon" sizes="57x57" href="https://www.gamertotal.com.ar/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="https://www.gamertotal.com.ar/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="https://www.gamertotal.com.ar/apple-icon-72x72.png">
@@ -46,11 +46,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap54/style.css" samesite="none Secure">
+  <link rel="stylesheet" href="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap55/style.css" samesite="none Secure">
   <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8213203459896597" crossorigin="anonymous"></script>
-  <?php wp_head();
-  ?>
+  <?php wp_head(); ?>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJFVFPCDEB"></script>
   <script>
@@ -65,7 +63,7 @@
   </script>
 </head>
 
-<body style="background-image: url('https://www.gamertotal.com.ar/wp-content/themes/Bootstrap54/images/back.webp'); background-repeat: repeat-y; background-size: contain;">
+<body style="background-image: url('https://www.gamertotal.com.ar/wp-content/themes/Bootstrap55/images/back.webp'); background-repeat: repeat-y; background-size: contain;">
   <!----boton_scroll_top---->
   <a id="button_top" rel="nofollow"></a>
   <!----boton_scroll_top---->

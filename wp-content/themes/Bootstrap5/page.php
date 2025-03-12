@@ -16,10 +16,10 @@
 
             <div class="row redes">
                 <div class="col mb-2" style="text-align: end;">
-                    <?php edit_post_link(__('<i class="fa-solid fa-pen-to-square"></i>', ''), '', ''); ?>
-                    <a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>&t=<?php the_title(); ?>"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a target="_blank" href="https://twitter.com/intent/tweet?text=<?php the_title(); ?> : <?php the_permalink(); ?>"><i class="fa-brands fa-twitter"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>&title=<?php the_title(); ?>"><i class="fa-brands fa-linkedin"></i></a>
+                    <?php edit_post_link(__('<i class="bi bi-pencil-square"></i>', ''), '', ''); ?>
+                    <a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>&t=<?php the_title(); ?>"><i class="bi bi-facebook"></i></a>
+                    <a target="_blank" href="https://twitter.com/intent/tweet?text=<?php the_title(); ?> : <?php the_permalink(); ?>"><i class="bi bi-twitter-x"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>&title=<?php the_title(); ?>"><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
 
@@ -43,9 +43,9 @@
             <div class="col-lg mb-2">
                 <a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">
                     <article itemscope itemtype="http://schema.org/BlogPosting">
-                        <?php the_post_thumbnail('medium_large', ['title' => get_the_title(), 'alt' => implode(', ', array_map(function ($tag) {
-                            return $tag->name;
-                        }, get_the_tags())), 'loading' => 'lazy', 'decoding' => 'async', 'class' => 'img-fluid rounded-top-4']); ?>
+                        <div class="img-container">
+                            <?php the_post_thumbnail('medium', ['alt' => esc_attr(($tags = get_the_tags()) ? implode(', ', array_map(function($tag) { return $tag->name; }, $tags)) : get_the_title()), 'loading' => 'auto', 'decoding' => 'async', 'fetchpriority' => 'high', 'class' => 'img-fluid rounded-top-4']); ?>
+                        </div>
                         <div class="rounded-bottom-4 " style="background-image: linear-gradient(to bottom, rgba(0, 0, 26, 0.5), rgba(0, 0, 26, 0.3), rgba(0, 0, 26, 0.1));">
                             <h3 itemprop="headline" class="m-0 p-4"><?php the_title_attribute(); ?></h3>
                         </div>

@@ -10,7 +10,7 @@
                 <div class="input-group">
                     <input type="text" class="form-control" name="s" id="s" placeholder="Palabras Claves">
                     <div class="input-group-append">
-                        <button class="btn btn-warning" style="background-color: #DE595E; border-color: #B64D54;" type="submit"><i class="fas fa-search" aria-hidden="true"></i></button>
+                        <button class="btn btn-warning" style="background-color: #DE595E; border-color: #B64D54;" type="submit"><i class="bi bi-search" aria-hidden="true"></i></button>
                     </div>
                 </div>
             </form>
@@ -26,7 +26,9 @@
             <article class="row mb-4 pb-2 noticias" itemscope itemtype="http://schema.org/BlogPosting">
                 <div class="col-lg-4">
                     <a href="<?php the_permalink() ?>" alt="<?php the_title_attribute(); ?>">
-                        <?php the_post_thumbnail('medium_large', ['alt' => get_the_title(), 'loading' => (($cant < 5) ? 'eager' : 'lazy'), 'class' => 'img-fluid']); ?>
+                        <div class="img-container">
+                            <?php the_post_thumbnail('medium', ['alt' => esc_attr(($tags = get_the_tags()) ? implode(', ', array_map(function($tag) { return $tag->name; }, $tags)) : get_the_title()), 'loading' => (($cant < 10) ? 'eager' : 'lazy'), 'decoding' => 'async', 'fetchpriority' => 'high', 'class' => 'img-fluid']); ?>
+                        </div>
                     </a>
                 </div>
                 <div class="col-lg-8">
@@ -44,7 +46,7 @@
     <?php else : ?>
         <div class="row">
             <div class="col-lg">
-                <img src="/wp-content/themes/Bootstrap5/images/nohay.jpg" alt="No se encontraron resultados" cache-control="max-age=31536000" decoding="async"/>
+                <img src="/wp-content/themes/Bootstrap53/images/nohay.jpg" alt="No se encontraron resultados" cache-control="max-age=31536000" decoding="async" />
             </div>
         </div>
         <div class="row">

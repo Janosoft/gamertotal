@@ -9,7 +9,7 @@
             <div style="border-bottom: 2px solid #B64D54;">
                 <div class="rectangulo"></div>
             </div>
-            <h1 class="Franklin700 separador"><?php echo ucfirst(single_cat_title('',false)); ?></h1>
+            <h1 class="Franklin700 separador"><?php echo ucfirst(single_cat_title('', false)); ?></h1>
         </div>
     </div>
 
@@ -20,7 +20,9 @@
         <article class="row mb-4 pb-2 noticias" itemscope itemtype="http://schema.org/BlogPosting">
             <div class="col-lg-4">
                 <a href="<?php the_permalink() ?>" alt="<?php the_title_attribute(); ?>">
-                    <?php the_post_thumbnail('medium_large', ['alt' => get_the_title(), 'loading' => (($cant < 5) ? 'eager' : 'lazy'), 'class' => 'img-fluid']); ?>
+                    <div class="img-container">
+                        <?php the_post_thumbnail('medium', ['alt' => esc_attr(($tags = get_the_tags()) ? implode(', ', array_map(function($tag) { return $tag->name; }, $tags)) : get_the_title()), 'loading' => (($cant < 10) ? 'eager' : 'lazy'), 'decoding' => 'async', 'fetchpriority' => 'high', 'class' => 'img-fluid']); ?>
+                    </div>
                 </a>
             </div>
             <div class="col-lg-8">

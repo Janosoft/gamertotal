@@ -9,9 +9,9 @@
             <div class="col-lg mb-2">
                 <a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">
                     <article itemscope itemtype="http://schema.org/BlogPosting">
-                        <?php the_post_thumbnail('medium_large', ['title' => get_the_title(), 'alt' => implode(', ', array_map(function ($tag) {
-                            return $tag->name;
-                        }, get_the_tags())), 'loading' => 'lazy', 'decoding' => 'async', 'class' => 'img-fluid rounded-top-4']); ?>
+                        <div class="img-container">
+                            <?php the_post_thumbnail('medium', ['alt' => esc_attr(($tags = get_the_tags()) ? implode(', ', array_map(function($tag) { return $tag->name; }, $tags)) : get_the_title()), 'loading' => 'eager', 'decoding' => 'async', 'fetchpriority' => 'high', 'class' => 'img-fluid rounded-top-4']); ?>
+                        </div>
                         <div class="rounded-bottom-4 " style="background-image: linear-gradient(to bottom, rgba(0, 0, 26, 0.5), rgba(0, 0, 26, 0.3), rgba(0, 0, 26, 0.1));">
                             <h3 itemprop="headline" class="m-0 p-4"><?php the_title_attribute(); ?></h3>
                         </div>

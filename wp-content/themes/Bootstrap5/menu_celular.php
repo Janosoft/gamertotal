@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-sm-block d-lg-none p-0">
     <div class="container-fluid ps-0">
         <a class="background_logo" href="https://www.gamertotal.com.ar/" target="_self">
-            <img src="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap5/images/logo.png" alt="logo Gamer Total" width="100" height="100" cache-control="max-age=31536000" decoding="async"/>
+            <img src="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap55/images/logo.png" alt="logo Gamer Total" width="100" height="100" cache-control="max-age=31536000" decoding="async"/>
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -20,7 +20,6 @@
                     <li class="nav-item"><a class="nav-link" style="color: #DF5A5F;" href="https://www.gamertotal.com.ar/category/lanzamientos/">Lanzamientos</a></li>
                     <li class="nav-item"><a class="nav-link" style="color: #DF5A5F;" href="https://www.gamertotal.com.ar/category/ofertas/">Ofertas</a></li>
                     <li class="nav-item"><a class="nav-link" style="color: #DF5A5F;" href="https://www.gamertotal.com.ar/category/tecnologia/">Tecnología</a></li>
-                    <li class="nav-item"><a class="nav-link" style="color: #DF5A5F;" href="https://www.gamertotal.com.ar/category/trucos/">Trucos</a></li>
                 </ul>
             </div>
         </div>
