@@ -1,3 +1,0 @@
-<!-- Noticias -->
-
-<!-- END : Noticias -->
