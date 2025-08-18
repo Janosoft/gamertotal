@@ -1,14 +1,14 @@
 <!-- en_vivo -->
 <?php
 $url = 'https://id.twitch.tv/oauth2/token';
-$client_id = 'f6dhpdn1v5ss2eziaszen00u872sqw';
+$client_id = 'f6dhpdn1v5ss2eziaszen00u872sqw'; //ejemplo
 $user_login = 'gamertotal_ar';
 $access_token = '';
 
 /* GET ACCESS TOKEN */
 $data = [
     'client_id' => $client_id,
-    'client_secret' => 'knrdksoyiohw6cztat5161fql74e3c',
+    'client_secret' => 'knrdksoyiohw6cztat5161fql74e3c', //ejemplo
     'grant_type' => 'client_credentials'
 ];
 
