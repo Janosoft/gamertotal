@@ -10,7 +10,6 @@
 
                 <div class="col-lg-1 text-center">
                     <a href="https://linkedin.com/company/gamertotal/" target="_blank" alt="Linkedin"><i class="bi bi-linkedin" aria-hidden="true" style="color: #692C31;"></i></a>
-                    <!-- <a href="https://www.instagram.com/gamertotal_ar/" target="_blank" alt="Instagram"><i class="bi bi-instagram ps-1 pe-1" aria-hidden="true" style="color: #692C31;"></i></a> -->
                 </div>
 
             </div>
@@ -20,7 +19,7 @@
 
 <?php wp_footer(); ?>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/gamertotal.js"></script>
 </body>
