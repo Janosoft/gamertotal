@@ -1,6 +1,6 @@
 <!-- Noticias_1 -->
 <section class="container mb-3">
-    <div class="row g-3 align-items-stretch">
+    <div class="row g-3 align-items-center">
         <!-- Central 1 -->
         <div class="col-lg-7">
             <?php
@@ -52,7 +52,7 @@
                         <meta itemprop="url" content="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'large'); ?>">
                     </div>
                     <div class="card-body">
-                        <h2 class="card-title h4" itemprop="headline">
+                        <h2 class="card-title h4 text-center" itemprop="headline">
                             <a href="<?php the_permalink(); ?>"
                                 aria-label="Leer Noticia: <?php the_title(); ?>"
                                 itemprop="url"
@@ -90,7 +90,7 @@
 
         <!-- Columna derecha -->
         <div class="col-lg-5">
-            <div class="vstack gap-3 h-100 border-2 p-3" style="border-color: rgba(228, 76, 91, 0.2) !important;">
+            <div class="vstack gap-3 border-2 p-3" style="border-color: rgba(228, 76, 91, 0.2); border-style: solid;">
                 <?php
                 $query = new WP_Query(array('posts_per_page' => 3, 'offset' => 1, 'category__in' => 1));
                 while ($query->have_posts()) : $query->the_post();
