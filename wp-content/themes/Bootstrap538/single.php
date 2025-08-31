@@ -37,7 +37,7 @@
             </div>
 
             <div class="row">
-                <div class="col">
+                <div class="col fs-6 fs-md-5 lh-lg">
                     <?php the_content(); ?>
                 </div>
             </div>

@@ -28,8 +28,12 @@
     <meta name="author" content="Gamer Total" />
     <meta name="copyright" content="Gamer Total" />
     <meta name="revisit" content="1 days" />
-    <meta name="googlebot" content="index, follow" />
-    <link rel="canonical" href="https://www.gamertotal.com.ar">
+    <?php if (is_front_page() || is_home()) : ?>
+        <link rel="canonical" href="https://www.gamertotal.com.ar/">
+    <?php elseif (is_category() || is_tag() || is_tax()) : ?>
+        <link rel="canonical" href="<?php echo esc_url(get_term_link(get_queried_object())); ?>">
+    <?php elseif (is_search()) : ?> <!-- En search mejor no poner canonical -->
+    <?php endif; ?>
     <link rel="apple-touch-icon" sizes="57x57" href="https://www.gamertotal.com.ar/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="https://www.gamertotal.com.ar/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="https://www.gamertotal.com.ar/apple-icon-72x72.png">
@@ -53,7 +57,7 @@
             "@context": "https://schema.org",
             "@type": "NewsMediaOrganization",
             "name": "Gamer Total",
-            "url": "https://www.chubuthoy.com/",
+            "url": "https://www.gamertotal.com.ar/",
             "logo": "<?php echo get_template_directory_uri(); ?>/imagenes/opengraph_image.jpg"
         }
     </script>
