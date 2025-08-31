@@ -116,7 +116,7 @@ hr {
 .progress2-container {
     width: 100%;
     height: 2px;
-    background: #ccc;
+    background: #ccc2;
 }
 
 .progress2-bar {
@@ -136,7 +136,7 @@ hr {
 .progress3-container {
     width: 100%;
     height: 2px;
-    background: #ccc;
+    background: #1F1F1F;
 }
 
 .progress3-bar {
