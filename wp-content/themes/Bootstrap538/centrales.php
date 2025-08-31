@@ -1,3 +1,0 @@
-<!-- Centrales -->
-
-<!-- END : Centrales -->

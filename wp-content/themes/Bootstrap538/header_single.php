@@ -49,7 +49,7 @@
     if (has_post_thumbnail()) {
         $img_src = esc_url(get_the_post_thumbnail_url(get_the_ID(), 'full'));
     } else {
-        $img_src = esc_url(get_template_directory_uri() . '/images/opengraph_image.jpg');
+        $img_src = esc_url(get_template_directory_uri() . '/imagenes/opengraph_image.jpg');
     }
     /* END : Imagen */
     /* Otros */
@@ -103,7 +103,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://www.gamertotal.com.ar/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="https://www.gamertotal.com.ar/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://www.gamertotal.com.ar/favicon-16x16.png">
-    <link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/images/logo.png" color="#DE595E">
+    <link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/imagenes/logo.png" color="#DE595E">
     <link rel="manifest" href="https://www.gamertotal.com.ar/manifest.json">
     <meta name="msapplication-TileColor" content="#DE595E">
     <meta name="msapplication-TileImage" content="https://www.gamertotal.com.ar/ms-icon-144x144.png">
@@ -129,7 +129,7 @@
                 "name": "Gamer Total",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "<?php echo get_template_directory_uri(); ?>/images/opengraph_image.jpg"
+                    "url": "<?php echo get_template_directory_uri(); ?>/imagenes/opengraph_image.jpg"
                 }
             },
             "datePublished": "<?php echo get_the_date('c'); ?>",
@@ -189,7 +189,7 @@
     <!-- END : WordPress Head -->
 </head>
 
-<body style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/back.webp'); background-repeat: repeat-y; background-size: contain;">
+<body style="background-image: url('<?php echo get_template_directory_uri(); ?>/imagenes/back.webp'); background-repeat: repeat-y; background-size: contain;">
     <!-- Botón TOP -->
     <a id="button_top"></a>
     <!-- END : Botón TOP -->

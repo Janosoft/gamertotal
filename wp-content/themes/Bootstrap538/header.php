@@ -17,13 +17,13 @@
     <meta property="og:site_name" content="Gamer Total" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.gamertotal.com.ar/">
-    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/images/opengraph_image.jpg">
+    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/imagenes/opengraph_image.jpg">
     <!-- END : Open Graph -->
     <!-- Twitter -->
     <meta name="twitter:description" content="Descubrí las últimas noticias, análisis y reseñas de los mejores videojuegos en nuestra página web. Mantenete actualizado en el mundo de los videojuegos con contenido fresco y exclusivo para todos los fanáticos. ¡Entrá ahora y disfrutá de la mejor experiencia gamer!" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Gamer Total">
-    <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/images/opengraph_image.jpg">
+    <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/imagenes/opengraph_image.jpg">
     <!-- END : Twitter -->
     <meta name="author" content="Alejandro Martín Lodes" />
     <meta name="copyright" content="Alejandro Martín Lodes" />
@@ -45,7 +45,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="https://www.gamertotal.com.ar/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://www.gamertotal.com.ar/favicon-16x16.png">
     <link rel="manifest" href="https://www.gamertotal.com.ar/manifest.json">
-    <link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/images/logo.png" color="#DE595E">
+    <link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/imagenes/logo.png" color="#DE595E">
     <meta name="msapplication-TileColor" content="#DE595E">
     <meta name="msapplication-TileImage" content="https://www.gamertotal.com.ar/ms-icon-144x144.png">
     <meta name="theme-color" content="#DE595E" />
@@ -55,7 +55,7 @@
             "@type": "NewsMediaOrganization",
             "name": "Gamer Total",
             "url": "https://www.chubuthoy.com/",
-            "logo": "<?php echo get_template_directory_uri(); ?>/images/opengraph_image.jpg"
+            "logo": "<?php echo get_template_directory_uri(); ?>/imagenes/opengraph_image.jpg"
         }
     </script>
     <!-- END : Metas -->
@@ -83,7 +83,7 @@
     <!-- END : WordPress Head -->
 </head>
 
-<body style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/back.webp'); background-repeat: repeat-y; background-size: contain;">
+<body style="background-image: url('<?php echo get_template_directory_uri(); ?>/imagenes/back.webp'); background-repeat: repeat-y; background-size: contain;">
     <h1 class="visually-hidden">Gamer Total</h1>
     <!-- Botón TOP -->
     <a id="button_top"></a>
