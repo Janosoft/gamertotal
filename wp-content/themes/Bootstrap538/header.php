@@ -52,6 +52,7 @@
     <meta name="msapplication-TileColor" content="#DE595E">
     <meta name="msapplication-TileImage" content="https://www.gamertotal.com.ar/ms-icon-144x144.png">
     <meta name="theme-color" content="#DE595E" />
+    <link rel="alternate" type="application/rss+xml" title="Gamer Total - RSS General" href="https://www.gamertotal.com.ar/feed" />
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
