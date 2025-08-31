@@ -128,7 +128,7 @@
                 ?>
                     <!-- Noticia -->
                     <article class="card border-2 position-relative" style="border-color: rgba(228, 76, 91, 0.2); background: linear-gradient(to right, rgba(125, 19, 119, 0.5), rgba(16, 17, 38, 0.5));" itemscope itemtype="https://schema.org/NewsArticle">
-                        <div class="row g-0">
+                        <div class="row g-0 align-items-center">
                             <div class="col-lg">
                                 <div class="ratio ratio-16x9 img-container">
                                     <div class="img-skeleton w-100 h-100 position-absolute"></div>
