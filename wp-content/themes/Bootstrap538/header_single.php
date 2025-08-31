@@ -83,12 +83,10 @@
     <meta name="twitter:title" content="<?php echo esc_attr(get_the_title()); ?>">
     <meta name="twitter:image" content="<?php echo $img_src; ?>">
     <!-- END : Twitter -->
-    <meta name="author" content="Alejandro Martín Lodes" />
-    <meta name="copyright" content="Alejandro Martín Lodes" />
-    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="author" content="Gamer Total" />
+    <meta name="copyright" content="Gamer Total" />
     <meta name="revisit" content="1 days" />
     <meta name="googlebot" content="index, follow" />
-    <link rel="canonical" href="<?php echo esc_url(get_permalink()); ?>">
     <link rel="apple-touch-icon" sizes="57x57" href="https://www.gamertotal.com.ar/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="https://www.gamertotal.com.ar/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="https://www.gamertotal.com.ar/apple-icon-72x72.png">

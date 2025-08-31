@@ -65,6 +65,7 @@ hr {
 }
 
 #button_top {
+    text-decoration: none;
     display: inline-block;
     background-color: #B64D54;
     width: 50px;
@@ -169,6 +170,24 @@ footer p {
 }
 
 /* SINGLE */
+
+ .single_nota a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ .single_nota a:hover {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: underline;
+}
+ 
+
+ .single_nota img {
+  width: 100%;
+  height: auto;
+}
 
 .single_nota .redes i {
     display: inline-flex;

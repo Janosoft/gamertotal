@@ -25,9 +25,8 @@
     <meta name="twitter:title" content="Gamer Total">
     <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/imagenes/opengraph_image.jpg">
     <!-- END : Twitter -->
-    <meta name="author" content="Alejandro Martín Lodes" />
-    <meta name="copyright" content="Alejandro Martín Lodes" />
-    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="author" content="Gamer Total" />
+    <meta name="copyright" content="Gamer Total" />
     <meta name="revisit" content="1 days" />
     <meta name="googlebot" content="index, follow" />
     <link rel="canonical" href="https://www.gamertotal.com.ar">

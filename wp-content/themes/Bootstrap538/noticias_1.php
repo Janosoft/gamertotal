@@ -52,7 +52,7 @@
                         <meta itemprop="url" content="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'large'); ?>">
                     </div>
                     <div class="card-body">
-                        <h2 class="card-title h4 text-center" itemprop="headline">
+                        <h2 class="card-title fs-4 text-center" itemprop="headline">
                             <a href="<?php the_permalink(); ?>"
                                 aria-label="Leer Noticia: <?php the_title(); ?>"
                                 itemprop="url"
@@ -145,7 +145,7 @@
                             </div>
                             <div class="col-lg">
                                 <div class="card-body">
-                                    <h2 class="card-title h6" itemprop="headline">
+                                    <h2 class="card-title fs-6 text-center text-lg-start" itemprop="headline">
                                         <a href="<?php the_permalink(); ?>"
                                             aria-label="Leer Noticia: <?php the_title(); ?>"
                                             itemprop="url"

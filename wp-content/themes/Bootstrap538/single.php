@@ -2,13 +2,13 @@
 <?php include_once('menu.php'); ?>
 
 <!-- single -->
-<article class="container" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="container single_nota" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="row mt-0 mt-2">
         <div class="col-lg-12">
 
             <div class="row">
                 <div class="col" style="text-align: center;">
-                    <h1 itemprop="headline"><?php the_title() ?></h1>
+                    <h1 itemprop="headline" class="fs-2 fw-bold"><?php the_title() ?></h1>
                 </div>
             </div>
 
@@ -23,7 +23,7 @@
                             <i class="bi bi-bookmark-fill" style="margin-right: 10px; color:white;" aria-hidden="true"></i>
                             <?php
                             foreach ($posttags as $tag) {
-                                $etiquetas .= '<a href="' . esc_attr(get_tag_link($tag->term_id)) . '">' . mb_strtoupper($tag->name)  . '</a>' . ' - ';
+                                $etiquetas .= '<a href="' . esc_attr(get_tag_link($tag->term_id)) . '" class="text-reset text-decoration-none fw-normal">' . mb_strtoupper($tag->name)  . '</a>' . ' - ';
                             }
                             $etiquetas = substr($etiquetas, 0, -2); //quita la ultima coma y el ultimo espacio
                             print($etiquetas);
@@ -136,7 +136,7 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <h2 class="card-title h6" itemprop="headline">
+                        <h2 class="card-title fs-6 text-center text-lg-start" itemprop="headline">
                             <a href="<?php the_permalink(); ?>"
                                 aria-label="Leer Noticia: <?php the_title(); ?>"
                                 itemprop="url"

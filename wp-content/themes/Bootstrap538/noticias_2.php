@@ -53,7 +53,7 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <h2 class="card-title h6" itemprop="headline">
+                        <h2 class="card-title fs-6 text-center text-lg-start" itemprop="headline">
                             <a href="<?php the_permalink(); ?>"
                                 aria-label="Leer Noticia: <?php the_title(); ?>"
                                 itemprop="url"
