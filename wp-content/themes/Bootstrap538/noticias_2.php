@@ -38,7 +38,7 @@
         ?>
             <!-- Noticia -->
             <div class="col-lg-4 d-flex">
-                <article class="card w-100 border-0 h-100 position-relative" itemscope itemtype="https://schema.org/NewsArticle">
+                <article class="card w-100 border-0 h-100 position-relative" style="background: linear-gradient(to right, rgba(125, 19, 119, 0.2), rgba(16, 17, 38, 0.5));" itemscope itemtype="https://schema.org/NewsArticle">
                     <div class="ratio ratio-16x9 img-container">
                         <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
                             <div class="img-skeleton w-100 h-100 position-absolute"></div>
