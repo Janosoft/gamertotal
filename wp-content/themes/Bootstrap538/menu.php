@@ -6,7 +6,7 @@
         <div class="row align-items-start">
             <div class="col-1 background_logo">
                 <a href="https://www.gamertotal.com.ar/" target="_self">
-                    <img loading="eager" src="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap55/images/logo.png" class="img-fluid mx-auto d-block" id="logo" alt="logo Gamer Total" cache-control="max-age=31536000" decoding="async">
+                    <img loading="eager" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" class="img-fluid mx-auto d-block" id="logo" alt="logo Gamer Total" cache-control="max-age=31536000" decoding="async">
                 </a>
             </div>
             <div class="col-lg-7 offset-lg-4 col-xl-6 offset-xl-5 col-xxl-5 offset-xxl-6">
@@ -36,7 +36,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-sm-block d-lg-none p-0">
         <div class="container-fluid ps-0">
             <a class="background_logo" href="https://www.gamertotal.com.ar/" target="_self">
-                <img src="https://www.gamertotal.com.ar/wp-content/themes/Bootstrap55/imagenes/logo.png" alt="logo Gamer Total" width="100" height="100" cache-control="max-age=31536000" decoding="async" />
+                <img src="<?php echo get_template_directory_uri(); ?>/imagenes/logo.png" alt="logo Gamer Total" width="100" height="100" cache-control="max-age=31536000" decoding="async" />
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
