@@ -1,5 +1,5 @@
 <!-- Noticias_1 -->
-<div class="container noticias">
+<section class="container mb-3">
     <div class="row g-3 align-items-stretch">
         <!-- Central 1 -->
         <div class="col-lg-7">
@@ -38,24 +38,29 @@
                 $time_required = 'PT' . $reading_time . 'M';
                 /* END : Otros Contenidos */
             ?>
-                <article class="card border-0" itemscope itemtype="https://schema.org/NewsArticle">
-                    <a href="<?php the_permalink(); ?>" aria-label="Leer Noticia: <?php the_title(); ?>" itemprop="url">
-                        <div class="ratio ratio-16x9 img-container">
-                            <div class="img-skeleton w-100 h-100 position-absolute"></div>
-                            <img
-                                data-src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'large')); ?>"
-                                alt="<?php echo esc_attr($alt_text); ?>"
-                                loading="eager"
-                                decoding="async"
-                                fetchpriority="high"
-                                class="card-img-top w-100 h-100 object-fit-cover object-center lazy-img rounded-1"
-                                itemprop="image">
-                            <meta itemprop="url" content="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'large'); ?>">
-                        </div>
-                        <div class="card-body">
-                            <h2 class="card-title h4" itemprop="headline"><?php the_title(); ?></h2>
-                        </div>
-                    </a>
+                <article class="card border-0 position-relative" itemscope itemtype="https://schema.org/NewsArticle">
+                    <div class="ratio ratio-16x9 img-container">
+                        <div class="img-skeleton w-100 h-100 position-absolute"></div>
+                        <img
+                            data-src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'large')); ?>"
+                            alt="<?php echo esc_attr($alt_text); ?>"
+                            loading="eager"
+                            decoding="async"
+                            fetchpriority="high"
+                            class="card-img-top w-100 h-100 object-fit-cover object-center lazy-img rounded-1"
+                            itemprop="image">
+                        <meta itemprop="url" content="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'large'); ?>">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title h4" itemprop="headline">
+                            <a href="<?php the_permalink(); ?>"
+                                aria-label="Leer Noticia: <?php the_title(); ?>"
+                                itemprop="url"
+                                class="stretched-link text-reset text-decoration-none">
+                                <?php the_title(); ?>
+                            </a>
+                        </h2>
+                    </div>
                     <meta itemprop="name" content="<?php the_title(); ?>">
                     <meta itemprop="author" content="Gamer Total">
                     <meta itemprop="datePublished" content="<?php echo get_the_date('c'); ?>">
@@ -121,33 +126,36 @@
                     $time_required = 'PT' . $reading_time . 'M';
                     /* END : Otros Contenidos */
                 ?>
-                    <!-- Noticias -->
-                    <article class="card border-0" itemscope itemtype="https://schema.org/NewsArticle">
-                        <a href="<?php the_permalink(); ?>" aria-label="Leer Noticia: <?php the_title(); ?>" itemprop="url">
-                            <div class="card">
-                                <div class="row g-0">
-                                    <div class="col-lg">
-                                        <div class="ratio ratio-16x9 img-container">
-                                            <div class="img-skeleton w-100 h-100 position-absolute"></div>
-                                            <img
-                                                data-src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'large')); ?>"
-                                                alt="<?php echo esc_attr($alt_text); ?>"
-                                                loading="eager"
-                                                decoding="async"
-                                                fetchpriority="high"
-                                                class="card-img-top w-100 h-100 object-fit-cover object-center lazy-img rounded-1"
-                                                itemprop="image">
-                                            <meta itemprop="url" content="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg">
-                                        <div class="card-body">
-                                            <h2 class="card-title h6" itemprop="headline"><?php the_title(); ?></h2>
-                                        </div>
-                                    </div>
+                    <!-- Noticia -->
+                    <article class="card border-0 position-relative" itemscope itemtype="https://schema.org/NewsArticle">
+                        <div class="row g-0">
+                            <div class="col-lg">
+                                <div class="ratio ratio-16x9 img-container">
+                                    <div class="img-skeleton w-100 h-100 position-absolute"></div>
+                                    <img
+                                        data-src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'large')); ?>"
+                                        alt="<?php echo esc_attr($alt_text); ?>"
+                                        loading="eager"
+                                        decoding="async"
+                                        fetchpriority="high"
+                                        class="card-img-top w-100 h-100 object-fit-cover object-center lazy-img rounded-1"
+                                        itemprop="image">
+                                    <meta itemprop="url" content="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'medium'); ?>">
                                 </div>
                             </div>
-                        </a>
+                            <div class="col-lg">
+                                <div class="card-body">
+                                    <h2 class="card-title h6" itemprop="headline">
+                                        <a href="<?php the_permalink(); ?>"
+                                            aria-label="Leer Noticia: <?php the_title(); ?>"
+                                            itemprop="url"
+                                            class="stretched-link text-reset text-decoration-none">
+                                            <?php the_title(); ?>
+                                        </a>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
                         <meta itemprop="name" content="<?php the_title(); ?>">
                         <meta itemprop="author" content="Gamer Total">
                         <meta itemprop="datePublished" content="<?php echo get_the_date('c'); ?>">
@@ -168,7 +176,7 @@
                         <meta itemprop="timeRequired" content="<?php echo esc_attr($time_required); ?>">
                         <meta itemprop="wordCount" content="<?php echo esc_attr($word_count); ?>">
                     </article>
-                    <!-- END: Noticias -->
+                    <!-- END: Noticia -->
                 <?php
                 endwhile;
                 wp_reset_postdata();
@@ -177,5 +185,5 @@
         </div>
         <!-- END: Columna derecha -->
     </div>
-</div>
+</section>
 <!-- END: Noticias_1 -->

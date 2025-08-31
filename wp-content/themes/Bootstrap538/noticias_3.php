@@ -1,4 +1,5 @@
-<div class="container">
+<!-- Noticias_3 -->
+<section class="container my-3">
     <div class="row">
         <div class="col-lg d-flex">
             <article class="card w-100 d-flex flex-column border-0 h-100" itemscope itemtype="https://schema.org/NewsArticle">
@@ -41,4 +42,5 @@
             </article>
         </div>
     </div>
-</div>
+</section>
+<!-- END: Noticias_3 -->
