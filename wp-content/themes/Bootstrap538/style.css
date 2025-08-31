@@ -1,3 +1,7 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* Skeleton/Placeholder para lazy loading */
 .img-skeleton {
     background-size: 200% 100%;
@@ -101,7 +105,7 @@ hr {
     visibility: visible;
 }
 
-.progress {
+.progress2 {
     position: fixed;
     top: 45px;
     z-index: 1;
@@ -109,13 +113,33 @@ hr {
     transition: all 0.5s;
 }
 
-.progress-container {
+.progress2-container {
     width: 100%;
     height: 2px;
     background: #ccc;
 }
 
-.progress-bar {
+.progress2-bar {
+    height: 2px;
+    background: #B64D54;
+    width: 0%;
+}
+
+.progress3 {
+    position: fixed;
+    top: 45px;
+    z-index: 1;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.progress3-container {
+    width: 100%;
+    height: 2px;
+    background: #ccc;
+}
+
+.progress3-bar {
     height: 2px;
     background: #B64D54;
     width: 0%;

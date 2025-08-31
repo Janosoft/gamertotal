@@ -45,18 +45,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Barra de progreso scroll
 window.onscroll = function () {
-    progress_compu();
+    progress();
 };
 
-function progress_compu() {
+function progress() {
     const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     const scrolled = (winScroll / height) * 100;
-    const bar = document.getElementById("myBar");
+    const bar_pc = document.getElementById("myBar");
+    const bar_celu = document.getElementById("myBar2");
 
-    if (bar) {
-        bar.style.width = scrolled + "%";
-    }
+    if (bar_pc) bar_pc.style.width = scrolled + "%";
+    if (bar_celu) bar_celu.style.width = scrolled + "%";
 }
 
 // Comportamiento del botón "ir arriba"

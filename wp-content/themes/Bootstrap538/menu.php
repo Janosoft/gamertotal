@@ -1,5 +1,7 @@
-<!-- menu -->
+<!-- Menu -->
 <header class="sticky-top">
+
+    <!-- menu_pc -->
     <div class="container-fluid d-none d-lg-block">
         <div class="row align-items-start">
             <div class="col-1 background_logo">
@@ -20,10 +22,16 @@
                         </ul>
                     </div>
                 </nav>
+                <div id="progress2">
+                    <div class="progress2-container">
+                        <div class="progress2-bar" id="myBar" style="width: 0%;"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
+    <!-- END: menu_pc -->
+
     <!-- menu_celular -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-sm-block d-lg-none p-0">
         <div class="container-fluid ps-0">
@@ -51,10 +59,11 @@
             </div>
         </div>
     </nav>
-
-    <div id="progress">
-        <div class="progress-container">
-            <div class="progress-bar" id="myBar" style="width: 0%;"></div>
+    <div id="progress3 d-sm-block d-md-none mb-2">
+        <div class="progress3-container d-sm-block d-md-none mb-2">
+            <div class="progress3-bar" id="myBar2" style="width: 0%;"></div>
         </div>
     </div>
+    <!-- END: menu_celular -->
 </header>
+<!-- END: Menu -->
