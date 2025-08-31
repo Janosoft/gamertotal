@@ -1,8 +1,21 @@
 /* Skeleton/Placeholder para lazy loading */
 .img-skeleton {
-    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
     background-size: 200% 100%;
     animation: loading 1.5s infinite;
+}
+
+body.light .img-skeleton {
+    background: linear-gradient(90deg,
+            #f0f0f0 25%,
+            #e0e0e0 50%,
+            #f0f0f0 75%);
+}
+
+body.dark .img-skeleton {
+    background: linear-gradient(90deg,
+            #2a2a2a 25%,
+            #3a3a3a 50%,
+            #2a2a2a 75%);
 }
 
 @keyframes loading {
