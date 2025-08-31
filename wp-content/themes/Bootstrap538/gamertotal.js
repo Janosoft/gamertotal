@@ -14,17 +14,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 // Cuando la imagen se carga completamente
                 img.onload = () => {
-                    img.classList.add('loaded');
-                    if (skeleton) {
-                        skeleton.style.display = 'none';
-                    }
+                    requestAnimationFrame(() => {
+                        img.classList.add('loaded');
+                        if (skeleton) skeleton.style.display = 'none';
+                    });
                 };
 
                 // Manejo de errores
                 img.onerror = () => {
                     if (skeleton) {
                         skeleton.innerHTML = '<div class="d-flex align-items-center justify-content-center h-100 text-muted"><i class="fas fa-image fa-2x"></i></div>';
-                        skeleton.style.background = '#f8f9fa';
+                        skeleton.style.background = '#343A40';
                         skeleton.style.animation = 'none';
                     }
                 };
@@ -43,31 +43,39 @@ document.addEventListener('DOMContentLoaded', function () {
     lazyImages.forEach(img => imageObserver.observe(img));
 });
 
-// Barra de Progreso
+// Barra de progreso scroll
 window.onscroll = function () {
-    progress_compu()
+    progress_compu();
 };
 
 function progress_compu() {
-    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    var scrolled = (winScroll / height) * 100;
-    document.getElementById("myBar").style.width = scrolled + "%";
-    document.getElementById("myBar2").style.width = scrolled + "%";
-}
-// Barra de Progreso
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    const bar = document.getElementById("myBar");
 
-//boton_scroll_top
-var btn = $('#button_top');
-$(window).scroll(function () {
-    if ($(window).scrollTop() > 300) {
-        btn.addClass('show');
-    } else {
-        btn.removeClass('show');
+    if (bar) {
+        bar.style.width = scrolled + "%";
     }
-});
-btn.on('click', function () {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-});
-//boton_scroll_top
+}
+
+// Comportamiento del botón "ir arriba"
+if (typeof $ !== 'undefined') {
+    $(document).ready(function () {
+        const btn = $('#button_top');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function () {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        });
+
+    });
+}

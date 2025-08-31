@@ -20,11 +20,6 @@
                         </ul>
                     </div>
                 </nav>
-                <div id="progress2">
-                    <div class="progress2-container">
-                        <div class="progress2-bar" id="myBar" style="width: 0%;"></div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -57,9 +52,9 @@
         </div>
     </nav>
 
-    <div id="progress3 d-sm-block d-md-none mb-2">
-        <div class="progress3-container d-sm-block d-md-none mb-2">
-            <div class="progress3-bar" id="myBar2" style="width: 0%;"></div>
+    <div id="progress">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar" style="width: 0%;"></div>
         </div>
     </div>
 </header>
