@@ -38,7 +38,7 @@
                 $time_required = 'PT' . $reading_time . 'M';
                 /* END : Otros Contenidos */
             ?>
-                <article class="card border-0 position-relative" style="background: linear-gradient(to right, rgba(125, 19, 119, 0.2), rgba(16, 17, 38, 0.5));" itemscope itemtype="https://schema.org/NewsArticle">
+                <article class="card border-2 position-relative" style="border-style: solid;border-color: rgba(228, 76, 91, 0.2); background: linear-gradient(to right, rgba(125, 19, 119, 0.2), rgba(16, 17, 38, 0.5));" itemscope itemtype="https://schema.org/NewsArticle">
                     <div class="ratio ratio-16x9 img-container">
                         <div class="img-skeleton w-100 h-100 position-absolute"></div>
                         <img
@@ -90,7 +90,7 @@
 
         <!-- Columna derecha -->
         <div class="col-lg-5">
-            <div class="vstack gap-3 h-100 border border-2 p-3" style="border-color: rgba(228, 76, 91, 0.2) !important;">
+            <div class="vstack gap-3 h-100 border-2 p-3" style="border-color: rgba(228, 76, 91, 0.2) !important;">
                 <?php
                 $query = new WP_Query(array('posts_per_page' => 3, 'offset' => 1, 'category__in' => 1));
                 while ($query->have_posts()) : $query->the_post();
@@ -127,7 +127,7 @@
                     /* END : Otros Contenidos */
                 ?>
                     <!-- Noticia -->
-                    <article class="card border-0 position-relative" style="background: linear-gradient(to right, rgba(125, 19, 119, 0.5), rgba(16, 17, 38, 0.5));" itemscope itemtype="https://schema.org/NewsArticle">
+                    <article class="card border-2 position-relative" style="border-color: rgba(228, 76, 91, 0.2); background: linear-gradient(to right, rgba(125, 19, 119, 0.5), rgba(16, 17, 38, 0.5));" itemscope itemtype="https://schema.org/NewsArticle">
                         <div class="row g-0">
                             <div class="col-lg">
                                 <div class="ratio ratio-16x9 img-container">
