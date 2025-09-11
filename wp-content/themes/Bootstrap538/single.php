@@ -44,7 +44,6 @@
 
             <div class="row redes my-2">
                 <div class="col" style="text-align: end;">
-                    <?php edit_post_link(__('<i class="bi bi-pencil-square"></i>', ''), '', ''); ?>
                     <a target="_blank" href="https://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>&t=<?php the_title(); ?>"><i class="bi bi-facebook"></i></a>
                     <a target="_blank" href="https://twitter.com/intent/tweet?text=<?php the_title(); ?> : <?php the_permalink(); ?>"><i class="bi bi-twitter-x"></i></a>
                     <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>&title=<?php the_title(); ?>"><i class="bi bi-linkedin"></i></a>
